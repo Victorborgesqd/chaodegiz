@@ -23,7 +23,7 @@ const StoreLayout: React.FC<StoreLayoutProps> = ({ children }) => {
       {/* Header */}
       <header className="bg-card border-b border-border px-4 py-3 flex items-center justify-between sticky top-0 z-50">
         <div className="flex items-center gap-2">
-          <Store className="w-6 h-6 text-primary" />
+          <img src="/logochaoodegiz.jpg" alt="Chão de Giz" className="h-8 w-auto rounded-sm" />
           <span className="font-bold text-foreground">Chão de Giz</span>
         </div>
         <div className="flex items-center gap-2">
